@@ -103,14 +103,14 @@ header img {
 }
 
 .location-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   opacity: 1.0;
   padding: 10px;
   margin: 5px 20px;
   background-color: black;
   width: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 #locations .flex-content {
