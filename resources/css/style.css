@@ -1,3 +1,4 @@
+/* General Styles */
 body {
   font-family: Helvetica;
   font-size: 22px;
@@ -7,10 +8,22 @@ body {
   text-align: center;
 }
 
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+.flex-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 a {
   color: seashell;
 }
 
+/* Header Section */
 header {
   position: fixed;
   top: 0;
@@ -19,17 +32,6 @@ header {
   background-color: black;
   border-bottom: 1px solid seashell;
   align-items: center;
-}
-
-.main {
-  padding-top: 69px;
-  width: 1200px;
-  margin: auto;
-}
-
-header img {
-  height: 50px;
-  padding-left: 10px;
 }
 
 nav {
@@ -42,12 +44,19 @@ nav span {
   padding: 20px 10px;
 }
 
-.flex-content {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+header img {
+  height: 50px;
+  padding-left: 10px;
 }
 
+/* Main Section of Content */
+.main {
+  padding-top: 69px;
+  width: 1200px;
+  margin: auto;
+}
+
+/* Mission Section */
 #mission {
   height: 700px;
   background-image: url("../images/img-mission-background.jpg");
@@ -60,11 +69,7 @@ nav span {
   width: 100%;
 }
 
-h2, h3, h4 {
-  margin: 0;
-  padding: 10px;
-}
-
+/* Featured Section */
 #featured {
   height: 700px;
   width: 1000px;
@@ -90,6 +95,7 @@ h2, h3, h4 {
   text-align: center;
 }
 
+/* Location Section */
 #locations {
   background-image: url("../images/img-locations-background.jpg");
   height: 500px;
@@ -107,10 +113,17 @@ h2, h3, h4 {
   justify-content: center;
 }
 
+#locations .flex-content {
+  margin: auto;
+  width: 1100px;
+}
+
+/* Contact Section */
 #contact {
   height: 200px;
 }
 
+/* Footer Section */
 footer {
   text-align: left;
   padding-left: 20px;
