@@ -47,13 +47,13 @@ nav span {
   flex-wrap: wrap;
 }
 
-.mission {
+#mission {
   height: 700px;
   background-image: url("../images/img-mission-background.jpg");
   padding-top: 70px;
 }
 
-.mission .container {
+#mission .container {
   margin: auto;
   background-color: black;
   width: 100%;
