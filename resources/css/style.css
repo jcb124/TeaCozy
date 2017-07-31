@@ -110,3 +110,8 @@ h2, h3, h4 {
 #contact {
   height: 200px;
 }
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
